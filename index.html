@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <main>
+        <article data-testid="test-profile-card">
+            <header>
+                <h2 data-testid="test-user-name">Mishael Oikelomen</h2>
+            </header>
+
+            <figure>
+                <img data-testid="test-user-avatar" src="36.jpg" alt="Profile picture of Oikelomen Mishael" />
+            </figure>
+
+            <p data-testid="test-user-bio">
+                I'm a frontend intern interested in creating clean, user-friendly and appealing web designs.
+            </p>
+            <p data-testid="test-user-time" id="current-time"></p>
+             <nav aria-label="Social media links">
+            <ul data-testid="test-user-social-links">
+                <li><a data-testid="test-user-social-twitter" href="https://x.com/ox_mish" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+                <li><a data-testid="test-user-social-github" href="https://github.com/Mixel47-ops" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+            </nav>
+
+            <section>
+                <h3>Hobbies</h3>
+                <ul data-testid="test-user-hobbies">
+                    <li>Reading</li>
+                    <li>Coding</li>
+                    <li>Watching football</li>
+                    <li>Playing football</li>
+                </ul>
+            </section>
+
+            <section>
+                <h3>Dislikes</h3>
+                    <ul data-testid="test-user-dislikes">
+                        <li>Spam emails</li>
+                        <li>Stress</li>
+                    </ul>
+            </section>
+        </article>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
