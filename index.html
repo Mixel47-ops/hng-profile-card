@@ -4,12 +4,25 @@
     <meta charset="UTF-8" /> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Profile Card</title>
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
     <link rel="stylesheet" href="./style.css">
 
 </head>
 <body>
     <main>
         <article data-testid="test-profile-card">
+
+    <nav>
+        <ul>
+            <li><a href="index.html" data-testid="test-nav-home">Home</a></li>
+            <li><a href="about.html" data-testid="test-nav-about">About Me</a></li>
+            <li><a href="contact.html" data-testid="test-nav-contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
             <header>
                 <h2 data-testid="test-user-name">Mishael Oikelomen</h2>
             </header>
@@ -24,8 +37,12 @@
             <p data-testid="test-user-time" id="current-time"></p>
              <nav aria-label="Social media links">
             <ul data-testid="test-user-social-links">
-                <li><a data-testid="test-user-social-twitter" href="https://x.com/ox_mish" target="_blank" rel="noopener noreferrer">Twitter</a></li>
-                <li><a data-testid="test-user-social-github" href="https://github.com/Mixel47-ops" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://twitter.com/ox_mish" target="_blank" aria-label="Twitter">
+                    <i class="fab fa-twitter"></i></a>
+                </li>
+                <li><a href="https://github.com/Mixel47-ops" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i></a>
+                </li>
             </ul>
             </nav>
 
